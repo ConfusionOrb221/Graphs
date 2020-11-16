@@ -136,7 +136,7 @@ class Graph:
 
         This should be done using recursion.
         """
-        #This is a cool little cheap i use a str because its not stored in memory the same way a list
+        #This is a cool little cheap trick i use a str because its not stored in memory the same way a list
         #would be so im able to not have to instatiate a new spot in memory for each list recursion and have the
         #path so far be stored in one str variable.
         explored.add(starting_vertex)
